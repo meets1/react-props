@@ -1,0 +1,124 @@
+*{
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+body {
+  background: #f1f5f8!important; 
+}
+.list {
+  width: 1065px;
+  /* max-width: 1250px; */
+  display: flex;
+  /* flex-direction: row; */
+  background: #212529;
+  flex-wrap: wrap;
+  height: 190vh;
+  margin: auto;
+  /* gap: 1.5rem; */
+  /* gap: 1rem; */
+  border-radius: 25px;
+  border: 2px solid #212529;
+  /* padding: 10px; */
+}
+
+#img1 {
+  /* background-image: url(https://centralrecorder.com/wp-content/uploads/2021/07/loki_teaser_poster.jpg); */
+  /* background-repeat: no-repeat; */
+  padding: 0px;
+  width: 203px;
+  max-width: 500px;
+  height: 200px;
+  /* border: 3px solid;
+  color: green; */
+  margin: 0.5rem; 
+  /* display: flexbox; */
+}
+/* h4:hover{
+  color: blue;
+} */
+
+a{
+  text-decoration: none;
+  margin: -5px;
+}
+
+h3,h4{
+  cursor: default;
+}
+
+
+.btn1{
+  background-color:grey;
+  color: green;
+  margin: 15px;
+  padding: 10px;
+}
+/* #img1:hover{
+  transform: scale(1.1);
+} */
+
+.btn-dark{
+  margin: 0px;
+}
+.btn-dark:hover{
+  color:goldenrod;
+}
+
+
+h4 {
+    margin: -5px;
+}
+
+.box{
+  border-radius: 10px;
+  width: 240px;
+  /* padding: 5px; */
+  background-color: #f1f5f8;
+  margin: 10px;
+}
+.box:hover{
+  transform: scale(1.05);
+}
+
+#s1{
+  font: bold;
+  margin-left: 80px;
+}
+#s1:hover{
+  color: yellowgreen;
+}
+
+.cover{
+  width: 1020px;
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+  opacity: 0.8;
+  height: 70vh;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 100px;
+  left: 150px;
+  color: #f1f5f8;
+  font-size: 180%;
+  cursor: default;
+}
+img{
+  border-radius: inherit;
+}
+/* clear */
+
+/* ************************* */
+/* .test{
+    height: 310px;
+    width: 80px;
+} */
+
+/* @media screen and (min-width: 768px){
+    .img1{
+        grid-template-columns: repeat(3,1fr);
+    }
+}  */
